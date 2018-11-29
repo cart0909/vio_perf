@@ -1,6 +1,0 @@
-cd gt
-for D in *;
-do
-evo_ape tum ${D}/data.tum ../vins_traj/${D}/camera_pose.tum -vas --plot --plot_mode xyz
-done
-cd ..
