@@ -1,4 +1,10 @@
 #!/bin/bash
+cd gt/
+for D in *
+do
+    mkdir -p ../results/${D%.*}
+done
+cd ..
 
 for dir in */
 do
